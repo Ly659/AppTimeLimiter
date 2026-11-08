@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_page">#FFF6F7FB</color>
+    <color name="bg_card">#FFFFFFFF</color>
+    <color name="stroke">#FFE6E8F0</color>
+
+    <color name="text_primary">#FF1B1F2A</color>
+    <color name="text_secondary">#FF7A8095</color>
+
+    <color name="brand_blue">#FF3B6FF5</color>
+    <color name="brand_blue_dark">#FF2453D6</color>
+
+    <color name="ok_green">#FF17A673</color>
+    <color name="warn_orange">#FFE08A24</color>
+    <color name="danger_red">#FFE04A48</color>
+
+    <color name="warn_bg">#FFFFF6E5</color>
+    <color name="warn_text">#FF8A5A00</color>
+
+    <color name="progress_bg">#FFEDEFF6</color>
+
+    <color name="overlay_bg">#FFFFFFFF</color>
+    <color name="overlay_title">#FF1B1F2A</color>
+    <color name="overlay_text">#FF5F6577</color>
+
+    <color name="white">#FFFFFFFF</color>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">时间守护</string>
+
+    <!-- 主界面 -->
+    <string name="guard_title">使用守护</string>
+    <string name="status_running">守护中 · 正在监控前台应用</string>
+    <string name="status_pending">等待启动 · 请检查权限</string>
+    <string name="status_off">守护已关闭</string>
+    <string name="limited_apps">已限制的应用</string>
+    <string name="add_app">添加</string>
+    <string name="empty_hint">还没有限制任何应用\n点击右上角「添加」选择要限制的 App</string>
+    <string name="perm_banner_text">需要「使用情况访问权限」才能识别你正在使用哪个 App。点击下方按钮前往授权。</string>
+    <string name="go_grant">去授权</string>
+    <string name="btn_overlay">悬浮窗权限</string>
+    <string name="btn_battery">电池优化白名单</string>
+    <string name="btn_autostart">自启动管理</string>
+    <string name="need_rule_first">请先添加至少一个要限制的应用</string>
+    <string name="guard_started">守护已开启</string>
+
+    <!-- 权限说明 -->
+    <string name="perm_usage_title">需要「使用情况访问权限」</string>
+    <string name="perm_usage_msg">时间守护需要知道你当前打开了哪个 App，才能开始计时。\n\n在接下来的页面中找到「时间守护」，打开开关即可。</string>
+    <string name="perm_overlay_title">建议开启「悬浮窗权限」</string>
+    <string name="perm_overlay_msg">Android 10 以上系统禁止后台应用直接弹窗。开启悬浮窗权限后，时间用完时会直接在屏幕中央弹出提醒；否则只能通过通知告诉你。</string>
+    <string name="later">稍后</string>
+
+    <!-- 选择应用 -->
+    <string name="pick_app">选择应用</string>
+    <string name="search_app">搜索应用</string>
+    <string name="no_app_found">没有找到应用</string>
+
+    <!-- 编辑弹窗 -->
+    <string name="save">保存</string>
+    <string name="delete">移除</string>
+    <string name="dialog_hint">说明：时长按天累计，每天凌晨 3 点重置。手动结束或额度用完后，需要等待设置的间隔才能再次打开。</string>
+
+    <!-- 通知 -->
+    <string name="ch_guard">守护状态</string>
+    <string name="ch_guard_desc">显示当前应用的剩余使用时间</string>
+    <string name="ch_alert">时间用完提醒</string>
+    <string name="ch_alert_desc">使用时间到期时的提醒</string>
+    <string name="notif_idle_title">时间守护正在运行</string>
+    <string name="notif_idle_text">当前没有使用被限制的应用</string>
+    <string name="notif_using_title">正在使用：%1$s</string>
+    <string name="notif_remaining">今日剩余 %1$s</string>
+    <string name="action_finish_early">结束使用</string>
+    <string name="notif_timeup_title">使用时间已用完</string>
+    <string name="notif_timeup_text">%1$s 今日额度已用完，已自动关闭</string>
+    <string name="notif_timeup_text_cooldown">%1$s 今日额度已用完，需等待 %2$s</string>
+
+    <!-- 弹窗 -->
+    <string name="i_know">我知道了</string>
+    <string name="ok">确定</string>
+    <string name="blocked_title">该应用已被限制</string>
+</resources>
